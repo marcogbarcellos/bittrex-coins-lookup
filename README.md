@@ -90,3 +90,14 @@ YOUR estimated balance Value : 11441548.58 USDT (1378.50038308 BTC)
 <<<<<<<<<<<<<<<<<<<<<<<<<<<< >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
 
 ```
+
+## Errors
+
+If you just try to run `npm start`, you might notice the following error:
+
+```
+TypeError: Cannot read property 'sigBytes' of undefined
+
+```
+
+It happens because you tried to run the script without the `API_KEY` and `API_SECRET` setup. The library(node-bittrex-api) we're using does not allow starting connections without the api key and secret.
