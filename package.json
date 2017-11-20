@@ -1,0 +1,34 @@
+{
+  "name": "crypto-lookup-terminal",
+  "version": "1.0.0",
+  "description": "look all crypto currencies through your balance using bittrex",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/marcogbarcellos/bittrex-coins-lookup.git"
+  },
+  "keywords": [
+    "bittrex",
+    "crypto",
+    "cryptocurrency",
+    "btc",
+    "bitcoin",
+    "usd",
+    "usdt",
+    "bcc",
+    "ethereum",
+    "eth",
+    "qtum",
+    "omg",
+    "lookup"
+  ],
+  "author": "marcogbarcellos",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/marcogbarcellos/bittrex-coins-lookup/issues"
+  },
+  "homepage": "https://github.com/marcogbarcellos/bittrex-coins-lookup#readme"
+}
