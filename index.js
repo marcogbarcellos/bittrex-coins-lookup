@@ -36,7 +36,7 @@ function lookBittrexBalance() {
   // We need to use promise here because the library(node-bittrex-api) we're using does not accept async/await
   return new Promise(
     function (resolve, reject) {
-        bittrex.getbalance({ currency : 'USDT'/*COIN*/ },
+        bittrex.getbalance({ currency : COIN },
         function (data, err ) {
           if ( err ) {
             logger.printAndLog(err);
