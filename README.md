@@ -11,7 +11,7 @@ Simple Nodejs 8 application to look crypto currencies in real time through the t
 
 You'll need to set the api key and secret as environment variable. To know how to generate API keys, take a look on the [documentation](https://bittrex.com/home/api).
 
-BE AWARE: To use this API you just need the API keys to have `READ` permissions, It's `NOT` recommended give the api keys Sell/Trade permission(at least not using this project).
+BE AWARE: To use this API you just need the API keys to have `READ` permissions, It's `NOT` recommended giving the api keys Sell/Trade permission(at least not using this project).
 
 
 By default, the script looks the market "USDT-BTC".
